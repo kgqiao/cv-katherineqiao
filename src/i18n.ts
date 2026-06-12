@@ -3,13 +3,13 @@ export const seo = {
     title:
       'santifer | Applied AI Operator · Builder of Career-Ops',
     description:
-      'Multi-agent systems builder. Applied AI Operator con 2 case studies en producción. Creador de Career-Ops (53.0K+ ⭐). 16 años llevando IA a producción.',
+      'Multi-agent systems builder. Applied AI Operator con 2 case studies en producción. Creador de Career-Ops (53.2K+ ⭐). 16 años llevando IA a producción.',
   },
   en: {
     title:
       'santifer | Applied AI Operator · Builder of Career-Ops',
     description:
-      'Multi-agent systems builder. Applied AI Operator with 2 production case studies live. Creator of Career-Ops (53.0K+ ⭐). 16 years shipping AI at scale.',
+      'Multi-agent systems builder. Applied AI Operator with 2 production case studies live. Creator of Career-Ops (53.2K+ ⭐). 16 years shipping AI at scale.',
   },
 };
 
@@ -190,10 +190,20 @@ export const translations = {
           tech: ['Claude Code', 'Batch Architecture', 'WebSearch', 'HITL Design'],
           link: 'career-ops.org',
           linkUrl: 'https://career-ops.org?utm_source=santifer.io&utm_medium=projects-grid&utm_campaign=home',
-          stars: '53.0K',
+          stars: '53.2K',
           forks: '10.6K',
           caseStudyUrl: '/career-ops',
           caseStudyLabel: 'Leer: AI Job Search multi-agente',
+        },
+        {
+          title: 'Warpchart',
+          badge: 'Open Source · Live',
+          badgeBuilding: '',
+          desc: 'Growth telemetry para cualquier repo de GitHub: star chart en vivo, rank mundial top-1000, vecinos con velocidad relativa, proyecciones de hitos, replay con sonido sintetizado y embeds SVG animados para READMEs. Estética sci-fi con transiciones warp. Producto OSS en producción con pipeline de pagos E2E operativo (Polar como merchant of record, provisioning automático de tenants); los datos jamás se venden. Es el motor del warp chart del case study de **Career Ops**.',
+          tech: ['Next.js 16', 'React 19', 'Tailwind v4', 'GitHub GraphQL', 'GitHub Actions', 'Web Audio', 'Polar', 'Vercel'],
+          link: 'warpchart.dev',
+          linkUrl: 'https://warpchart.dev?utm_source=santifer.io&utm_medium=projects-grid&utm_campaign=home',
+          stars: '2',
         },
         {
           title: 'santifer.io',
@@ -202,7 +212,7 @@ export const translations = {
           desc: 'CV interactivo con SDLC aumentado con IA. Construido con **Claudeable**, monitorizado con **Claude Pulse**, animaciones debuggeadas con **Claude Eye**. Prerender SSR, i18n bilingüe y SEO automatizado.',
           tech: ['React 19', 'TypeScript', 'Tailwind', 'Vite', 'Motion', 'Vercel'],
           link: 'github.com/santifer/cv-santiago',
-          stars: '660',
+          stars: '662',
           forks: '242',
         },
         {
@@ -572,10 +582,10 @@ export const translations = {
       quoteLikes: '6.7K',
       quoteViews: '1.7M',
       quoteUrl: 'https://x.com/garrytan/status/2040891664617848993',
-      replies: '107',
+      replies: '106',
       retweets: '500',
       likes: '3.9K',
-      views: '548.9K',
+      views: '549.1K',
       cta: 'Ver en X',
       url: 'https://x.com/santifer/status/2041403685696053741',
     },
@@ -1046,10 +1056,20 @@ export const translations = {
           tech: ['Claude Code', 'Batch Architecture', 'WebSearch', 'HITL Design'],
           link: 'career-ops.org',
           linkUrl: 'https://career-ops.org?utm_source=santifer.io&utm_medium=projects-grid&utm_campaign=home',
-          stars: '53.0K',
+          stars: '53.2K',
           forks: '10.6K',
           caseStudyUrl: '/career-ops-system',
           caseStudyLabel: 'Case Study: AI Job Search',
+        },
+        {
+          title: 'Warpchart',
+          badge: 'Open Source · Live',
+          badgeBuilding: '',
+          desc: 'Growth telemetry for any GitHub repo: live star chart, worldwide top-1000 rank, neighbors with relative velocity, milestone projections, replay with synthesized sound, and animated SVG embeds for READMEs. Sci-fi aesthetic with warp transitions. OSS product live in production with a working E2E payments pipeline (Polar as merchant of record, automatic tenant provisioning); the data is never sold. It powers the warp chart in the **Career Ops** case study.',
+          tech: ['Next.js 16', 'React 19', 'Tailwind v4', 'GitHub GraphQL', 'GitHub Actions', 'Web Audio', 'Polar', 'Vercel'],
+          link: 'warpchart.dev',
+          linkUrl: 'https://warpchart.dev?utm_source=santifer.io&utm_medium=projects-grid&utm_campaign=home',
+          stars: '2',
         },
         {
           title: 'santifer.io',
@@ -1058,7 +1078,7 @@ export const translations = {
           desc: 'Interactive CV with AI-augmented SDLC. Built with **Claudeable**, monitored with **Claude Pulse**, animations debugged with **Claude Eye**. SSR prerender, bilingual i18n, and automated SEO.',
           tech: ['React 19', 'TypeScript', 'Tailwind', 'Vite', 'Motion', 'Vercel'],
           link: 'github.com/santifer/cv-santiago',
-          stars: '660',
+          stars: '662',
           forks: '242',
         },
         {
@@ -1424,10 +1444,10 @@ export const translations = {
       quoteLikes: '6.7K',
       quoteViews: '1.7M',
       quoteUrl: 'https://x.com/garrytan/status/2040891664617848993',
-      replies: '107',
+      replies: '106',
       retweets: '500',
       likes: '3.9K',
-      views: '548.9K',
+      views: '549.1K',
       cta: 'View on X',
       url: 'https://x.com/santifer/status/2041403685696053741',
     },

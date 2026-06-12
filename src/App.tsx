@@ -1546,7 +1546,7 @@ function App() {
                   <Github className="w-3.5 h-3.5" />
                   <span>career-ops</span>
                   <Star className="w-3 h-3 text-yellow-500" />
-                  {/* hero-stats:career-ops:stars */}<span className="font-medium">53.0K</span>
+                  {/* hero-stats:career-ops:stars */}<span className="font-medium">53.2K</span>
                   <GitFork className="w-3 h-3" />
                   {/* hero-stats:career-ops:forks */}<span>10.6K</span>
                 </Link>
@@ -2178,6 +2178,8 @@ function App() {
             // Fila 4: Claude Pulse + ProjectOS Predict
             const claudePulse = allProjects.find(p => p.title === 'Claude Pulse')!
             const projectOSPredict = allProjects.find(p => p.title === 'ProjectOS Predict')!
+            // Fila 5: Warpchart + ProjectOS Predict
+            const warpchart = allProjects.find(p => p.title === 'Warpchart')!
 
             // Helper para parsear **bold** a elementos con estilo
             const parseBold = (text: string): React.ReactNode[] => {
@@ -2198,6 +2200,7 @@ function App() {
               claudeable: useRef<HTMLDivElement>(null),
               claudePulse: useRef<HTMLDivElement>(null),
               projectOSPredict: useRef<HTMLDivElement>(null),
+              warpchart: useRef<HTMLDivElement>(null),
             }
 
             // Hook para calcular líneas de conexión SVG
@@ -2479,9 +2482,12 @@ function App() {
                   </AnimatedSection>
                 </div>
 
-                {/* Fila 5: ProjectOS Predict (full width) */}
-                <div className="relative z-10">
+                {/* Fila 5: Warpchart + ProjectOS Predict */}
+                <div className="grid md:grid-cols-2 gap-6 relative z-10">
                   <AnimatedSection delay={0.45}>
+                    <ProjectCard project={warpchart} cardRef={cardRefs.warpchart} />
+                  </AnimatedSection>
+                  <AnimatedSection delay={0.5}>
                     <ProjectCard project={projectOSPredict} cardRef={cardRefs.projectOSPredict} />
                   </AnimatedSection>
                 </div>

@@ -38,6 +38,7 @@ interface I18nRepo {
 }
 const I18N_REPOS: I18nRepo[] = [
   { owner: 'santifer', repo: 'career-ops', label: 'career-ops (i18n)', extraLinks: ['career-ops.org'] },
+  { owner: 'santifer', repo: 'warpchart', label: 'warpchart (i18n)', extraLinks: ['warpchart.dev'] },
   { owner: 'santifer', repo: 'cv-santiago', label: 'cv-santiago (i18n)' },
   { owner: 'santifer', repo: 'claude-pulse', label: 'claude-pulse (i18n)' },
   { owner: 'santifer', repo: 'claude-eye', label: 'claude-eye (i18n)' },
